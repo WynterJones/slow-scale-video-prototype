@@ -2,6 +2,8 @@
 
 A 2 step web page protprototype for the YouTube API and a slow scale effect.
 
+<img src="/demo.gif" />
+
 The first step is a simple Headline and Play button. This button will trigger:
 
 - Slow fade in of the video
