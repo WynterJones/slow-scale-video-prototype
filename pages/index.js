@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Vsl.module.css";
 import YouTube from "react-youtube";
 
@@ -107,11 +106,7 @@ export default function Home() {
                 <div
                   className={styles.progressBar}
                   style={{
-                    width: `${
-                      (typeof window !== "undefined"
-                        ? progress * window.innerWidth
-                        : 0) / 100
-                    }px`,
+                    width: `${(progress * 900) / 100}px`,
                   }}
                 ></div>
               </div>
