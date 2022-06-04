@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>YouTube API "Redirect" Page</title>
+        <title>YouTube API Redirect Page</title>
       </Head>
 
       <div className={styles.blurryBG}>
